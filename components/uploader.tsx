@@ -204,7 +204,7 @@ export default function Uploader() {
             id="image-upload"
             name="image"
             type="file"
-            accept="image/*"
+            accept="image/*, application/pdf"
             className="sr-only"
             onChange={onChangePicture}
           />
