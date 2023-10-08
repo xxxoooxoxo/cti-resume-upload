@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@types/node": "18.15.11",
-    "@types/react": "^18.0.37",
+    "@types/react": "^18.2.25",
     "@types/react-dom": "18.0.11",
     "@vercel/blob": "^0.8.3",
     "autoprefixer": "10.4.14",
@@ -23,12 +23,14 @@
     "postcss": "8.4.22",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hot-toast": "^2.4.0",
+    "react-hot-toast": "^2.4.1",
+    "react-pdf": "^7.5.0",
     "tailwindcss": "3.3.1",
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/ms": "^0.7.31",
-    "turbo": "^1.9.3"
+    "@types/ms": "^0.7.32",
+    "turbo": "^1.10.15",
+    "raw-loader": "4.0.2"
   }
 }
