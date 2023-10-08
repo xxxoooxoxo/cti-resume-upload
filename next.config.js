@@ -1,8 +1,13 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['public.blob.vercel-storage.com'],
+    domains: ["img.freepik.com", "veterinaire-tour-hassan.com"],
   },
-}
-
-module.exports = nextConfig
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.node/,
+      use: "raw-loader",
+    });
+    return config;
+  },
+};
+module.exports = nextConfig;
